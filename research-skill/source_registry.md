@@ -13,6 +13,16 @@ This registry gives the skill library a preferred source basis. Use these source
 - Robert Almgren and Neil Chriss - "Optimal Execution of Portfolio Transactions": execution cost/risk tradeoff and market-impact-aware schedules.
 - Easley, Lopez de Prado, O'Hara, and Zhang - flow toxicity and modern machine-age microstructure.
 
+## Stochastic Processes and Mathematical Finance
+
+- Rama Cont - stylized facts, jump processes, Levy models, functional/pathwise Ito calculus, model risk, systemic risk, and stochastic limit-order-book models.
+- Cont and Tankov - *Financial Modelling with Jump Processes*: jump processes, Levy processes, option pricing, hedging, calibration, and numerical methods.
+- Cont, Kukanov, and Stoikov - order flow imbalance and order-book-event impact.
+- Cont and de Larrard - Markovian limit-order-book queues, price dynamics, and diffusion approximations.
+- Steven Shreve - *Stochastic Calculus for Finance I/II*: binomial foundations, martingales, Brownian motion, Ito calculus, risk-neutral pricing, and continuous-time models.
+- Karatzas and Shreve - *Brownian Motion and Stochastic Calculus* and *Methods of Mathematical Finance*: rigorous stochastic calculus, martingale finance, incomplete markets, utility maximization, and optimal investment.
+- Bertsekas and Shreve - *Stochastic Optimal Control*: dynamic programming and discrete-time stochastic control.
+
 ## Statistical Arbitrage and Empirical Finance
 
 - Avellaneda and Lee - PCA/ETF residual statistical arbitrage and mean-reverting residuals.
@@ -24,6 +34,17 @@ This registry gives the skill library a preferred source basis. Use these source
 - Bailey, Borwein, Lopez de Prado, and Zhu - probability of backtest overfitting.
 - Bailey and Lopez de Prado - Deflated Sharpe Ratio.
 - White and Hansen - data snooping and superior predictive ability tests.
+
+## Optimization, Volatility, Robustness, and Control
+
+- Richard Feynman - *The Feynman Lectures on Physics*, *The Character of Physical Law*, and "Cargo Cult Science": first-principles explanation, scientific honesty, simple examples, and not fooling yourself.
+- Stephen Boyd and Lieven Vandenberghe - *Convex Optimization*: convex modeling, duality, KKT conditions, cone programs, and disciplined solver thinking.
+- Boyd's Stanford EE364a/EE364b material: optimization modeling, decomposition, ADMM, robust/stochastic optimization, and implementation structure.
+- Robert Engle - ARCH/GARCH and time-varying volatility; use for conditional risk forecasts, volatility targeting, DCC, VaR/ES, and systemic risk metrics.
+- NYU Volatility and Risk Institute / V-Lab: real-time volatility, correlation, and systemic risk measurement as model-risk context.
+- Jim Gatheral - volatility surface, rough volatility, and no-dynamic-arbitrage market impact.
+- Peter Huber and Elvezio Ronchetti - robust statistics, M-estimators, robust regression, robust covariance, breakdown/influence thinking.
+- Dimitri Bertsekas - dynamic programming, stochastic optimal control, approximate DP, reinforcement learning foundations, and sequential decision discipline.
 
 ## Public Practitioner / Firm Sources
 
@@ -50,4 +71,3 @@ Convert sources into concrete work:
 - review -> paper/live readiness decision.
 
 If the source cannot be converted into an empirical or engineering object, it is context, not evidence.
-

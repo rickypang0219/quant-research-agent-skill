@@ -153,6 +153,46 @@ research-skill/
 │   │   ├── sources.md
 │   │   ├── mental_models.md
 │   │   └── examples.md
+│   ├── cont/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── shreve/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── boyd/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── engle/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── gatheral/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── robust-statistics/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── bertsekas/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
+│   ├── feynman/
+│   │   ├── SKILL.md
+│   │   ├── sources.md
+│   │   ├── mental_models.md
+│   │   └── examples.md
 │   ├── ng/
 │   │   ├── SKILL.md
 │   │   ├── sources.md
@@ -187,9 +227,23 @@ research-skill/
 └── workflow/
     ├── idea-to-hypothesis/
     │   └── SKILL.md
+    ├── data-audit/
+    │   └── SKILL.md
+    ├── signal-diagnostics/
+    │   └── SKILL.md
+    ├── experiment-ledger/
+    │   └── SKILL.md
     ├── backtest-review/
     │   └── SKILL.md
     ├── backtest/
+    │   └── SKILL.md
+    ├── paper-trading-review/
+    │   └── SKILL.md
+    ├── model-validation/
+    │   └── SKILL.md
+    ├── research-to-production-handoff/
+    │   └── SKILL.md
+    ├── postmortem/
     │   └── SKILL.md
     ├── code-review/
     │   └── SKILL.md
@@ -339,6 +393,32 @@ research-skill/prof/lo/examples.md
 
 ---
 
+### `/prof/feynman`
+
+Use for:
+
+- first-principles explanation
+- simple-language teaching
+- physical intuition
+- toy examples
+- checking whether a concept is truly understood
+- explaining equations term by term
+- detecting jargon hiding weak understanding
+- scientific honesty
+- cargo-cult research warnings
+- translating abstract math into observable reality
+
+Default files:
+
+```text
+research-skill/prof/feynman/SKILL.md
+research-skill/prof/feynman/sources.md
+research-skill/prof/feynman/mental_models.md
+research-skill/prof/feynman/examples.md
+```
+
+---
+
 ### `/prof/ng`
 
 Use for:
@@ -359,6 +439,192 @@ Default files:
 research-skill/prof/ng/SKILL.md
 research-skill/prof/ng/mental_models.md
 research-skill/prof/ng/examples.md
+```
+
+---
+
+### `/prof/cont`
+
+Use for:
+
+- stochastic processes grounded in empirical market facts
+- stylized facts of financial returns
+- heavy tails
+- volatility clustering
+- jump processes
+- Levy processes
+- pathwise / functional Ito calculus
+- path-dependent functionals
+- model risk
+- order-flow imbalance
+- stochastic limit-order-book models
+- queueing and diffusion approximations
+- market impact and liquidity state
+- systemic risk
+
+Default files:
+
+```text
+research-skill/prof/cont/SKILL.md
+research-skill/prof/cont/sources.md
+research-skill/prof/cont/mental_models.md
+research-skill/prof/cont/examples.md
+```
+
+---
+
+### `/prof/shreve`
+
+Use for:
+
+- stochastic calculus
+- martingales
+- Brownian motion
+- filtrations and stopping times
+- Ito integration and Ito formula
+- SDEs
+- Girsanov change of measure
+- risk-neutral pricing
+- equivalent martingale measures
+- no-arbitrage
+- binomial-to-continuous-time reasoning
+- stochastic control
+- transaction costs
+- optimal execution
+- utility maximization
+
+Default files:
+
+```text
+research-skill/prof/shreve/SKILL.md
+research-skill/prof/shreve/sources.md
+research-skill/prof/shreve/mental_models.md
+research-skill/prof/shreve/examples.md
+```
+
+---
+
+### `/prof/boyd`
+
+Use for:
+
+- convex optimization
+- portfolio optimization
+- constrained regression
+- transaction-cost-aware optimization
+- robust optimization
+- KKT conditions
+- dual variables
+- ADMM
+- solver diagnostics
+- optimizer stability
+
+Default files:
+
+```text
+research-skill/prof/boyd/SKILL.md
+research-skill/prof/boyd/sources.md
+research-skill/prof/boyd/mental_models.md
+research-skill/prof/boyd/examples.md
+```
+
+---
+
+### `/prof/engle`
+
+Use for:
+
+- volatility econometrics
+- ARCH / GARCH
+- realized volatility
+- volatility forecasting
+- dynamic conditional correlation
+- VaR / expected shortfall
+- volatility targeting
+- systemic risk metrics
+- volatility-regime diagnostics
+
+Default files:
+
+```text
+research-skill/prof/engle/SKILL.md
+research-skill/prof/engle/sources.md
+research-skill/prof/engle/mental_models.md
+research-skill/prof/engle/examples.md
+```
+
+---
+
+### `/prof/gatheral`
+
+Use for:
+
+- implied volatility surface
+- volatility skew and term structure
+- stochastic volatility
+- rough volatility
+- option-market diagnostics
+- variance risk premium
+- no-dynamic-arbitrage market impact
+- execution-impact consistency
+
+Default files:
+
+```text
+research-skill/prof/gatheral/SKILL.md
+research-skill/prof/gatheral/sources.md
+research-skill/prof/gatheral/mental_models.md
+research-skill/prof/gatheral/examples.md
+```
+
+---
+
+### `/prof/robust-statistics`
+
+Use for:
+
+- outliers and bad ticks
+- heavy tails
+- robust regression
+- M-estimators
+- median / MAD
+- winsorization and trimming
+- robust covariance
+- influence functions
+- bootstrap under fat tails
+
+Default files:
+
+```text
+research-skill/prof/robust-statistics/SKILL.md
+research-skill/prof/robust-statistics/sources.md
+research-skill/prof/robust-statistics/mental_models.md
+research-skill/prof/robust-statistics/examples.md
+```
+
+---
+
+### `/prof/bertsekas`
+
+Use for:
+
+- dynamic programming
+- stochastic optimal control
+- Markov decision processes
+- approximate dynamic programming
+- reinforcement learning sanity checks
+- inventory control
+- execution control
+- liquidation policies
+- sequential decisions under uncertainty
+
+Default files:
+
+```text
+research-skill/prof/bertsekas/SKILL.md
+research-skill/prof/bertsekas/sources.md
+research-skill/prof/bertsekas/mental_models.md
+research-skill/prof/bertsekas/examples.md
 ```
 
 ---
@@ -531,6 +797,54 @@ research-skill/workflow/idea-to-hypothesis/SKILL.md
 
 ---
 
+## `/workflow/data-audit`
+
+Use before research or backtesting to verify data quality, schema, timestamps, missing data, stale prices, survivorship, funding alignment, contract specs, and order book reconstruction.
+
+Default file:
+
+```text
+research-skill/workflow/data-audit/SKILL.md
+```
+
+---
+
+## `/workflow/signal-diagnostics`
+
+Use after feature construction and before full backtesting to test IC, rank IC, bucket monotonicity, signal decay, factor exposure, turnover, regime stability, and cost-adjusted edge.
+
+Default file:
+
+```text
+research-skill/workflow/signal-diagnostics/SKILL.md
+```
+
+---
+
+## `/workflow/experiment-ledger`
+
+Use to record hypotheses, configs, dataset versions, parameter searches, rejected variants, validation splits, metrics, and anti-p-hacking evidence.
+
+Default file:
+
+```text
+research-skill/workflow/experiment-ledger/SKILL.md
+```
+
+---
+
+## `/workflow/backtest`
+
+Use when converting a hypothesis into reproducible vectorized or event-driven backtests, including dataset construction, leakage checks, parameter search, walk-forward validation, costs, fill simulation, and reporting.
+
+Default file:
+
+```text
+research-skill/workflow/backtest/SKILL.md
+```
+
+---
+
 ## `/workflow/backtest-review`
 
 Use when reviewing:
@@ -562,6 +876,54 @@ Default file:
 
 ```text
 research-skill/workflow/code-review/SKILL.md
+```
+
+---
+
+## `/workflow/paper-trading-review`
+
+Use to review paper/shadow trading: live-vs-backtest drift, submitted vs accepted orders, simulated vs actual fills, latency, slippage, feature drift, reconciliation, and risk breaches.
+
+Default file:
+
+```text
+research-skill/workflow/paper-trading-review/SKILL.md
+```
+
+---
+
+## `/workflow/model-validation`
+
+Use for independent validation of quant models before production: assumptions, data lineage, leakage, calibration, robustness, implementation parity, monitoring, and approval gates.
+
+Default file:
+
+```text
+research-skill/workflow/model-validation/SKILL.md
+```
+
+---
+
+## `/workflow/research-to-production-handoff`
+
+Use to convert notebook/research logic into production modules, configs, tests, data contracts, monitoring, deployment plans, and ownership handoff.
+
+Default file:
+
+```text
+research-skill/workflow/research-to-production-handoff/SKILL.md
+```
+
+---
+
+## `/workflow/postmortem`
+
+Use after losses, bad fills, outages, data failures, risk breaches, unexpected exposure, backtest/live divergence, or production incidents.
+
+Default file:
+
+```text
+research-skill/workflow/postmortem/SKILL.md
 ```
 
 ---
@@ -620,6 +982,7 @@ Can I model crypto returns as quantum excitations?
 Activate:
 
 ```text
+/prof/feynman
 /prof/simons
 /prof/lo
 /prof/brunton
@@ -629,6 +992,7 @@ Activate:
 Reason:
 
 - `/prof/simons` for abstract hidden structure and geometry
+- `/prof/feynman` for first-principles translation into simple observable objects
 - `/prof/lo` for financial reality check
 - `/prof/brunton` for dynamical systems interpretation
 - `/workflow/idea-to-hypothesis` for empirical translation
@@ -643,9 +1007,12 @@ Activate:
 
 ```text
 /prof/strang
+/prof/boyd
 /prof/lo
 /domain/statistical-arbitrage
 /domain/risk
+/workflow/data-audit
+/workflow/signal-diagnostics
 /workflow/backtest-review
 ```
 
@@ -656,9 +1023,13 @@ Activate:
 Activate:
 
 ```text
+/prof/cont
 /prof/lo
+/prof/engle
 /domain/market-microstructure
 /domain/risk
+/workflow/data-audit
+/workflow/signal-diagnostics
 /workflow/idea-to-hypothesis
 ```
 
@@ -678,9 +1049,12 @@ Activate:
 ```text
 /prof/ng
 /prof/lo
+/prof/robust-statistics
 /domain/statistical-arbitrage
 /domain/risk
 /workflow/idea-to-hypothesis
+/workflow/data-audit
+/workflow/signal-diagnostics
 /workflow/backtest-review
 ```
 
@@ -693,9 +1067,33 @@ Activate:
 ```text
 /prof/brunton
 /prof/strang
+/prof/cont
+/prof/engle
 /prof/lo
 /domain/statistical-arbitrage
 /workflow/idea-to-hypothesis
+/workflow/signal-diagnostics
+```
+
+---
+
+### Stochastic process / derivative pricing / stochastic control
+
+Activate:
+
+```text
+/prof/shreve
+/prof/cont
+/prof/gatheral
+/prof/lo
+/domain/risk
+```
+
+If the question involves execution, order books, or market impact, also activate:
+
+```text
+/domain/market-microstructure
+/workflow/backtest-review
 ```
 
 ---
@@ -708,6 +1106,8 @@ Activate:
 /domain/quant-trading-system
 /domain/live-trading
 /domain/risk
+/workflow/research-to-production-handoff
+/workflow/paper-trading-review
 /workflow/production-readiness
 ```
 
