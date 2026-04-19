@@ -39,10 +39,10 @@ The goal is to help the user improve:
 All reusable skills are stored under:
 
 ```text
-research-skill-/
+research-skill/
 ```
 
-Before answering a non-trivial quant, trading, mathematical modeling, backtesting, live trading, or code-review task, inspect the relevant files under `research-skill-/`.
+Before answering a non-trivial quant, trading, mathematical modeling, backtesting, live trading, or code-review task, inspect the relevant files under `research-skill/`.
 
 Do not blindly read every file.
 
@@ -226,9 +226,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/prof/simons/SKILL.md
-research-skill-/prof/simons/mental_models.md
-research-skill-/prof/simons/examples.md
+research-skill/prof/simons/SKILL.md
+research-skill/prof/simons/mental_models.md
+research-skill/prof/simons/examples.md
 ```
 
 ---
@@ -255,9 +255,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/prof/strang/SKILL.md
-research-skill-/prof/strang/mental_models.md
-research-skill-/prof/strang/examples.md
+research-skill/prof/strang/SKILL.md
+research-skill/prof/strang/mental_models.md
+research-skill/prof/strang/examples.md
 ```
 
 ---
@@ -281,9 +281,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/prof/lo/SKILL.md
-research-skill-/prof/lo/mental_models.md
-research-skill-/prof/lo/examples.md
+research-skill/prof/lo/SKILL.md
+research-skill/prof/lo/mental_models.md
+research-skill/prof/lo/examples.md
 ```
 
 ---
@@ -305,9 +305,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/prof/ng/SKILL.md
-research-skill-/prof/ng/mental_models.md
-research-skill-/prof/ng/examples.md
+research-skill/prof/ng/SKILL.md
+research-skill/prof/ng/mental_models.md
+research-skill/prof/ng/examples.md
 ```
 
 ---
@@ -330,9 +330,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/prof/brunton/SKILL.md
-research-skill-/prof/brunton/mental_models.md
-research-skill-/prof/brunton/examples.md
+research-skill/prof/brunton/SKILL.md
+research-skill/prof/brunton/mental_models.md
+research-skill/prof/brunton/examples.md
 ```
 
 ---
@@ -359,9 +359,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/domain/statistical-arbitrage/SKILL.md
-research-skill-/domain/statistical-arbitrage/formulas.md
-research-skill-/domain/statistical-arbitrage/experiments.md
+research-skill/domain/statistical-arbitrage/SKILL.md
+research-skill/domain/statistical-arbitrage/formulas.md
+research-skill/domain/statistical-arbitrage/experiments.md
 ```
 
 ---
@@ -384,9 +384,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/domain/market-microstructure/SKILL.md
-research-skill-/domain/market-microstructure/formulas.md
-research-skill-/domain/market-microstructure/experiments.md
+research-skill/domain/market-microstructure/SKILL.md
+research-skill/domain/market-microstructure/formulas.md
+research-skill/domain/market-microstructure/experiments.md
 ```
 
 ---
@@ -410,9 +410,9 @@ Use for:
 Default files:
 
 ```text
-research-skill-/domain/quant-trading-system/SKILL.md
-research-skill-/domain/quant-trading-system/architecture.md
-research-skill-/domain/quant-trading-system/experiments.md
+research-skill/domain/quant-trading-system/SKILL.md
+research-skill/domain/quant-trading-system/architecture.md
+research-skill/domain/quant-trading-system/experiments.md
 ```
 
 ---
@@ -436,8 +436,8 @@ Use for:
 Default files:
 
 ```text
-research-skill-/domain/live-trading/SKILL.md
-research-skill-/domain/live-trading/checklists.md
+research-skill/domain/live-trading/SKILL.md
+research-skill/domain/live-trading/checklists.md
 ```
 
 ---
@@ -460,8 +460,8 @@ Use for:
 Default files:
 
 ```text
-research-skill-/domain/risk/SKILL.md
-research-skill-/domain/risk/checklists.md
+research-skill/domain/risk/SKILL.md
+research-skill/domain/risk/checklists.md
 ```
 
 ---
@@ -475,7 +475,7 @@ Use when the user proposes an abstract, vague, metaphorical, or early-stage idea
 Default file:
 
 ```text
-research-skill-/workflow/idea-to-hypothesis/SKILL.md
+research-skill/workflow/idea-to-hypothesis/SKILL.md
 ```
 
 ---
@@ -498,7 +498,7 @@ Use when reviewing:
 Default file:
 
 ```text
-research-skill-/workflow/backtest-review/SKILL.md
+research-skill/workflow/backtest-review/SKILL.md
 ```
 
 ---
@@ -510,7 +510,7 @@ Use when reviewing or improving code.
 Default file:
 
 ```text
-research-skill-/workflow/code-review/SKILL.md
+research-skill/workflow/code-review/SKILL.md
 ```
 
 ---
@@ -529,7 +529,7 @@ Use when deciding whether research is ready for:
 Default file:
 
 ```text
-research-skill-/workflow/production-readiness/SKILL.md
+research-skill/workflow/production-readiness/SKILL.md
 ```
 
 ---
