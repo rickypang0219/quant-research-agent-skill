@@ -144,6 +144,21 @@ For Rust production components:
 - Use `cargo`, `polars`, `tokio`/`smol`, `rayon`, `crossbeam`, and careful memory layout where needed.
 - Keep research and execution boundaries clear: Python for exploration, Rust for latency-sensitive ingestion, portfolio state, and order-routing components.
 
+### 8. Produce implementation-grade research outputs
+
+Every stat-arb answer should try to leave behind one or more concrete artifacts:
+
+- universe definition with inclusion/exclusion rules known at the time;
+- factor model or neutralization matrix with explicit dimensions;
+- residual definition and half-life/AR/OU estimation method;
+- signal table with timestamp, asset, score, lag convention, and eligibility flag;
+- portfolio-construction rule with gross, net, beta/factor, concentration, borrow/funding, and turnover constraints;
+- PnL decomposition into alpha PnL, beta/factor PnL, fees, spread/slippage, funding/borrow, and residual inventory effects;
+- validation split and multiple-testing count;
+- rejection criteria that can kill the idea quickly.
+
+If these cannot be specified, say the idea is not yet a trading hypothesis.
+
 ## Skill Modes
 
 ### Mode A — Literature-to-Research Translation

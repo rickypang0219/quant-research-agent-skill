@@ -1,6 +1,6 @@
 # Andrew W. Lo Source Map
 
-This source map supports the `SKILLS.md`, `mental_models.md`, and `examples.md` files. It is a curated public-source bibliography, not a claim of exhaustive coverage of every message, conference appearance, interview, or lecture.
+This source map supports the `SKILL.md`, `mental_models.md`, and `examples.md` files. It is a curated public-source bibliography, not a claim of exhaustive coverage of every message, conference appearance, interview, or lecture.
 
 ---
 
@@ -273,4 +273,3 @@ For each source, extract four things:
 2. **Measurement** — What variables or tests does it use?
 3. **Failure mode** — What assumptions break?
 4. **Trading/risk implication** — How would this change a strategy, portfolio, or risk process?
-

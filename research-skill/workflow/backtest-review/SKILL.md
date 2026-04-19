@@ -52,6 +52,21 @@ If any one of these fails, the Sharpe ratio is not meaningful.
 
 ---
 
+## Reviewer Source Lenses
+
+Use these sources as review lenses:
+
+- Bailey, Borwein, Lopez de Prado, and Zhu for probability of backtest overfitting and CSCV.
+- Bailey and Lopez de Prado for Deflated Sharpe Ratio and selection-bias correction.
+- White and Hansen for data-snooping and superior predictive ability tests.
+- Lo for adaptive markets, serial-correlation-adjusted performance interpretation, and the distinction between alpha and changing market ecology.
+- O'Hara, Hasbrouck, Avellaneda-Stoikov, Cont-Kukanov-Stoikov, and Almgren-Chriss for execution realism, spread, adverse selection, order flow, market making, and impact.
+- NautilusTrader and LEAN as public engineering examples of event-driven, research-to-live or research/backtest/live architecture.
+
+Do not cite these names as decoration. Convert each lens into a specific review question, formula, experiment, or failure mode.
+
+---
+
 ## Review Output Format
 
 Every review should produce this structure:

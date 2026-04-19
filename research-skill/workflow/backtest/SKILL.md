@@ -43,6 +43,48 @@ idea
 
 ---
 
+## Research Artifact Contract
+
+Every serious backtest should leave enough evidence for another quant developer to reproduce and attack it.
+
+Required artifacts:
+
+- `config.yaml` or equivalent immutable config with universe, dates, fees, slippage, sizing, risk limits, and parameters.
+- dataset fingerprint: source, symbols, date range, row count, schema version, timezone, hash or manifest path.
+- feature manifest: feature formulas, lookback windows, lag/shift conventions, missing-data handling.
+- signal manifest: entry/exit rules, target construction, position timing, and disabled assets.
+- trades/orders/fills table with timestamps, prices, quantities, fees, liquidity flags, and rejection/cancel reasons where available.
+- equity, positions, exposures, turnover, drawdown, and cost-attribution tables.
+- validation report: train/test/walk-forward split, parameter search count, heatmaps, robustness slices, and rejected variants.
+- risk report: gross/net exposure, leverage, factor/beta exposure, concentration, liquidation distance, drawdown and tail metrics.
+
+If these artifacts are missing, the backtest is exploratory only.
+
+## Promotion Gates
+
+Use these gates before increasing realism or capital:
+
+```text
+Idea -> signal test:
+    Observable variables, label, null hypothesis, and baseline exist.
+
+Signal test -> vectorized backtest:
+    Predictive effect has correct sign, is lag-safe, and beats a naive baseline before full strategy complexity.
+
+Vectorized backtest -> event-driven replay:
+    Performance survives realistic first-pass costs, parameter perturbation, and out-of-sample splits.
+
+Event-driven replay -> paper trading:
+    Order lifecycle, fills, latency, risk checks, and reconciliation are implemented and tested.
+
+Paper trading -> small live:
+    Live-vs-sim tracking error is explained, monitoring is active, kill switch works, and loss limits are pre-committed.
+```
+
+Do not skip gates because the equity curve looks good.
+
+---
+
 ## Use This Skill When
 
 Use this skill when the user asks about:

@@ -4,12 +4,12 @@ description: Use for building, debugging, and productionizing quant trading syst
 ---
 
 
-# SKILLS.md — Quant Trading System Builder
+# Quant Trading System Builder
 
 ## 0. Skill identity
 
-**Skill name:** `quant-trading-system-builder`  
-**Default path:** `/skills/quant-trading-system/SKILLS.md`  
+**Skill name:** `quant-trading-system`  
+**Default path:** `research-skill/domain/quant-trading-system/SKILL.md`  
 **Purpose:** Help build, debug, and evolve quant trading research systems, event-driven backtesting engines, paper-trading systems, and production-grade Rust execution systems.
 
 Use this skill whenever the user asks about:
@@ -30,6 +30,21 @@ Use this skill whenever the user asks about:
 - data engineering for trading systems
 
 This skill is **not** a promise that a strategy is profitable. It is an engineering, research, debugging, and risk-control skill.
+
+---
+
+## 0.1 Source basis
+
+Use public, attributable sources as engineering priors:
+
+- NautilusTrader: research-to-live parity, deterministic event-driven backtesting, Rust core, Python control plane, and live reconciliation.
+- QuantConnect LEAN: modular event-driven algorithm engine, research/backtest/live workflow, survivorship-bias-aware data handling, portfolio/accounting abstractions.
+- Jane Street public technology material: strong static types, in-house trading/risk systems, research tools, systems infrastructure, and tight research/trading/technology feedback loops.
+- Citadel/Citadel Securities public career and market-structure material: rigorous scientific hypothesis testing, large-scale datasets, advanced simulation, high-performance C++/HPC, market microstructure, and production ownership.
+- Tower Research public material: high-performance platform, market access, data, compute, research infrastructure, risk management, global venue coverage, and tight quant-core-engineering collaboration.
+- Renaissance Technologies public site: mathematical and statistical methods in investment-program design and execution. Treat this as a broad principle, not a replicable recipe.
+
+These sources are not evidence of a tradable edge. They are evidence for engineering standards: deterministic systems, strong data contracts, explicit risk state, simulation/live parity, observability, and disciplined iteration.
 
 ---
 
@@ -245,18 +260,18 @@ quant-trading-system/
 │   └── rust/
 └── skills/
     └── quant-trading-system/
-        └── SKILLS.md
+        └── SKILL.md
 ```
 
 If integrating with the existing professor-skill structure, use:
 
 ```text
-/prof/strang/SKILLS.md
-/prof/lo/SKILLS.md
-/prof/brunton/SKILLS.md
-/prof/simons/SKILLS.md
-/skills/quant-trading-system/SKILLS.md
-/skills/quant-research-router.md
+research-skill/prof/strang/SKILL.md
+research-skill/prof/lo/SKILL.md
+research-skill/prof/brunton/SKILL.md
+research-skill/prof/simons/SKILL.md
+research-skill/domain/quant-trading-system/SKILL.md
+research-skill/domain/quant-trading-system/quant-research-router.md
 ```
 
 ---

@@ -141,6 +141,16 @@ Preferred Rust stack:
 - lock-free or cache-aware queues where justified,
 - careful memory layout, cache padding, and CPU affinity only when latency profiling shows it matters.
 
+### 7. Separate research simulator from live exchange reality
+
+For any microstructure strategy, explicitly state which reality layer is being modeled:
+
+- **Quote/trade research:** bars, BBO, L2 snapshots, or L3 order events.
+- **Execution simulator:** market order crossing, passive limit fill, queue model, latency, cancel/replace behavior, and fee tier.
+- **Live system:** venue adapter, order-state machine, throttles, stale-book guard, position/risk state, and reconciliation.
+
+Do not let a BBO or bar-level backtest claim L3 queue priority. Do not let a fill-probability model claim exchange determinism unless the model has been calibrated and stress-tested.
+
 ## Standard Answer Format
 
 When answering a microstructure question, use this order:

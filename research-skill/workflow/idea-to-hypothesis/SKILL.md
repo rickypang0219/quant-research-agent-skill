@@ -41,6 +41,15 @@ signal ≠ strategy
 strategy ≠ live edge
 ```
 
+## Researcher / Developer Split
+
+For every idea, separate two deliverables:
+
+- **Research deliverable:** observable, hypothesis, target, feature, baseline, statistical test, cost assumption, and falsifier.
+- **Developer deliverable:** data source, schema, timestamp convention, feature pipeline, backtest implementation, test cases, config, and reproducible report.
+
+If either side is missing, call it out directly. A mathematically elegant idea with no data contract is not implementable; a clean code implementation with no falsifiable hypothesis is just software.
+
 ## Required Output
 
 For every raw idea, produce:
