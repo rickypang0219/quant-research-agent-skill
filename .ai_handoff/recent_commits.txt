@@ -1,0 +1,12 @@
+# git log --oneline -30
+
+```text
+c812483 add more skills
+9b5c2ac add readme
+ffba257 remove DS_Store
+04c34aa add Andrew Ng skill and workflows
+ac1ad7b rename folder name
+b87ea86 rename folder name
+924fadb add workflow/backtest-review/
+efc256e first commit
+```
