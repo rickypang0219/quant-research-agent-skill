@@ -2,6 +2,25 @@
 
 # Quant Research & Live Trading Development Lab
 
+## Repository-Specific Quickstart
+
+This repository currently contains a quant research skill library plus a Python research module for crypto statistical arbitrage experiments under `research/crypto_stat_arb/`.
+
+Use `uv` for Python dependency management. Before editing, inspect `git status --short`, read the relevant `research-skill/` files, and understand the data/backtest timing assumptions. After editing Python code, run:
+
+```bash
+uv run --extra dev pytest
+uv run ruff check
+```
+
+When data is available locally, also run the relevant audit/backtest command, for example:
+
+```bash
+uv run python -m research.crypto_stat_arb.binance_ohlc audit --data-dir data/raw/binance_um_1h_onboard_20230101_all
+```
+
+Do not invent data availability, exchange behavior, performance results, or live-trading readiness. Report uncertainty explicitly. Do not read, print, copy, or commit secrets such as `.env`, API keys, exchange keys, or private credential files.
+
 ## Mission
 
 This repository is a quant research and live trading development lab.
