@@ -1,0 +1,19 @@
+# git status --short
+
+Captured after adding the repository-specific `AGENTS.md` quickstart and before/while creating this handoff bundle.
+
+```text
+ M .gitignore
+ M AGENTS.md
+?? .ai_handoff/
+?? pyproject.toml
+?? research/
+?? tests/
+?? uv.lock
+```
+
+Notes:
+
+- `data/raw/` and `data/reports/` are intentionally ignored by `.gitignore`.
+- Python caches, uv cache, and `.venv/` are intentionally ignored.
+- The Python project and handoff bundle are untracked until the user stages them.
